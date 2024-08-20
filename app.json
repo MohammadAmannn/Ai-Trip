@@ -4,7 +4,7 @@
     "slug": "Ai-Trip",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/trip.jpeg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -17,9 +17,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/trip.jpeg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.mohdaman.AiTrip"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9022052c-86e7-4b9d-9b11-3dd15b220218"
+      }
     }
   }
 }
